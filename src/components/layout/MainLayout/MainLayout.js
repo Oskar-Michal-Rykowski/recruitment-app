@@ -13,7 +13,6 @@ import { BottomNav } from "../BottomNav/BottomNav";
 const Component = ({ className, children }) => (
   <div className={clsx(className, styles.root)}>
     <Header></Header>
-    <h2>MainLayout</h2>
     {children}
     <BottomNav></BottomNav>
   </div>
