@@ -11,6 +11,7 @@ import { MainLayout } from "./components/layout/MainLayout/MainLayout";
 import { Homepage } from "./components/views/Homepage/Homepage";
 import { Country } from "./components/views/Country/Country";
 import { NotFound } from "./components/views/NotFound/NotFound";
+import { Search } from "./components/views/Search/Search";
 
 const theme = createTheme({
   palette: {
@@ -27,6 +28,7 @@ const App = () => (
           <MainLayout>
             <Switch>
               <Route exact path="/" component={Homepage} />
+              <Route exact path="/search" component={Search} />
               <Route exact path="/country/:country" component={Country} />
               <Route path="*" component={NotFound} />
             </Switch>

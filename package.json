@@ -1,5 +1,5 @@
 {
-  "name": "bulletin-board",
+  "name": "recruitment-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -40,8 +40,10 @@
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@material-ui/icons": "^4.5.1",
+    "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.7",
     "@mui/styles": "^5.2.3",
+    "@mui/x-data-grid": "^5.2.2",
     "axios": "^0.19.0",
     "clsx": "^1.0.4",
     "enzyme": "^3.10.0",

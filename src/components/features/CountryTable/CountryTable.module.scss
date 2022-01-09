@@ -1,0 +1,10 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  margin: 30px auto;
+  height: 540px;
+  width: 800px;
+  .instruction {
+    margin: 15px 0;
+  }
+}

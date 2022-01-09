@@ -4,10 +4,12 @@ import { composeWithDevTools } from "redux-devtools-extension";
 
 import { initialState } from "./initialState";
 import { reducer as countriesReducer } from "./countriesRedux";
+import { reducer as searchingReducer } from "./searchingRedux";
 
 // define reducers
 const reducers = {
   countries: countriesReducer,
+  searchingCountry: searchingReducer,
 };
 
 // add blank reducers for initial state properties without reducers

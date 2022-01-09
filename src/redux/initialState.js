@@ -1,7 +1,8 @@
 export const initialState = {
+  searchingCountry: "Countries",
   countries: [
     {
-      ID: "663333d5-859e-401d-8508-577fc51de878",
+      id: "663333d5-859e-401d-8508-577fc51de878",
       Country: "Afghanistan",
       CountryCode: "AF",
       Slug: "afghanistan",
@@ -15,7 +16,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b7af4c35-0ba0-4045-973b-54202e8c7eae",
+      id: "b7af4c35-0ba0-4045-973b-54202e8c7eae",
       Country: "Albania",
       CountryCode: "AL",
       Slug: "albania",
@@ -29,7 +30,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b938e352-649d-4410-87a1-af509effe34e",
+      id: "b938e352-649d-4410-87a1-af509effe34e",
       Country: "Algeria",
       CountryCode: "DZ",
       Slug: "algeria",
@@ -43,7 +44,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f928f909-b340-40b8-adc9-cc51b4b7b27a",
+      id: "f928f909-b340-40b8-adc9-cc51b4b7b27a",
       Country: "Andorra",
       CountryCode: "AD",
       Slug: "andorra",
@@ -57,7 +58,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "c8fbfe9e-a0dc-4020-946a-7c48346cb32b",
+      id: "c8fbfe9e-a0dc-4020-946a-7c48346cb32b",
       Country: "Angola",
       CountryCode: "AO",
       Slug: "angola",
@@ -71,7 +72,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "8f2d4809-5714-4522-8d02-927c72da4ea8",
+      id: "8f2d4809-5714-4522-8d02-927c72da4ea8",
       Country: "Antigua and Barbuda",
       CountryCode: "AG",
       Slug: "antigua-and-barbuda",
@@ -85,7 +86,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b26a00ca-b35c-4113-ba56-32d8fd221492",
+      id: "b26a00ca-b35c-4113-ba56-32d8fd221492",
       Country: "Argentina",
       CountryCode: "AR",
       Slug: "argentina",
@@ -99,7 +100,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "07471e8b-7941-4c15-bee5-96af65c06e1f",
+      id: "07471e8b-7941-4c15-bee5-96af65c06e1f",
       Country: "Armenia",
       CountryCode: "AM",
       Slug: "armenia",
@@ -113,7 +114,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "6ccc2e3d-a98c-4eeb-aea0-65abd3337355",
+      id: "6ccc2e3d-a98c-4eeb-aea0-65abd3337355",
       Country: "Australia",
       CountryCode: "AU",
       Slug: "australia",
@@ -127,7 +128,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5edb7627-f53e-4175-b286-14ae131fc61c",
+      id: "5edb7627-f53e-4175-b286-14ae131fc61c",
       Country: "Austria",
       CountryCode: "AT",
       Slug: "austria",
@@ -141,7 +142,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "1cdadb63-6704-49d7-9ff3-07221028f08b",
+      id: "1cdadb63-6704-49d7-9ff3-07221028f08b",
       Country: "Azerbaijan",
       CountryCode: "AZ",
       Slug: "azerbaijan",
@@ -155,7 +156,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a8cc262d-dfd9-4bfa-94a5-5d2e0dda760d",
+      id: "a8cc262d-dfd9-4bfa-94a5-5d2e0dda760d",
       Country: "Bahamas",
       CountryCode: "BS",
       Slug: "bahamas",
@@ -169,7 +170,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b9a31dae-96cf-455b-a44e-8d1d4f797666",
+      id: "b9a31dae-96cf-455b-a44e-8d1d4f797666",
       Country: "Bahrain",
       CountryCode: "BH",
       Slug: "bahrain",
@@ -183,7 +184,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "11cc4e6a-876c-4289-822c-6e2565d3889e",
+      id: "11cc4e6a-876c-4289-822c-6e2565d3889e",
       Country: "Bangladesh",
       CountryCode: "BD",
       Slug: "bangladesh",
@@ -197,7 +198,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "95192dd1-314a-44fc-9c58-9a70b9576343",
+      id: "95192dd1-314a-44fc-9c58-9a70b9576343",
       Country: "Barbados",
       CountryCode: "BB",
       Slug: "barbados",
@@ -211,7 +212,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "356418f0-c554-47b9-bcd3-dabe6f5622fb",
+      id: "356418f0-c554-47b9-bcd3-dabe6f5622fb",
       Country: "Belarus",
       CountryCode: "BY",
       Slug: "belarus",
@@ -225,7 +226,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "e358d0c5-6902-48e4-9976-5c92118e4507",
+      id: "e358d0c5-6902-48e4-9976-5c92118e4507",
       Country: "Belgium",
       CountryCode: "BE",
       Slug: "belgium",
@@ -239,7 +240,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "7149f567-2a4b-4076-a558-9e545785ce24",
+      id: "7149f567-2a4b-4076-a558-9e545785ce24",
       Country: "Belize",
       CountryCode: "BZ",
       Slug: "belize",
@@ -253,7 +254,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "e9b39ae5-6fdb-4c40-8cad-617541d09429",
+      id: "e9b39ae5-6fdb-4c40-8cad-617541d09429",
       Country: "Benin",
       CountryCode: "BJ",
       Slug: "benin",
@@ -267,7 +268,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "505fbb90-dc98-48ed-b24b-e380881daa45",
+      id: "505fbb90-dc98-48ed-b24b-e380881daa45",
       Country: "Bhutan",
       CountryCode: "BT",
       Slug: "bhutan",
@@ -281,7 +282,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "fb7b6a46-a0d9-4378-a7fc-ab834fa43d1c",
+      id: "fb7b6a46-a0d9-4378-a7fc-ab834fa43d1c",
       Country: "Bolivia",
       CountryCode: "BO",
       Slug: "bolivia",
@@ -295,7 +296,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "45fc2623-994b-452a-b04c-1a7b2af53cf4",
+      id: "45fc2623-994b-452a-b04c-1a7b2af53cf4",
       Country: "Bosnia and Herzegovina",
       CountryCode: "BA",
       Slug: "bosnia-and-herzegovina",
@@ -309,7 +310,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "c8d39817-80ce-4316-ba6b-a319cfdfcd85",
+      id: "c8d39817-80ce-4316-ba6b-a319cfdfcd85",
       Country: "Botswana",
       CountryCode: "BW",
       Slug: "botswana",
@@ -323,7 +324,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "4d29b19c-0040-45b9-a8d8-68db2b1df61a",
+      id: "4d29b19c-0040-45b9-a8d8-68db2b1df61a",
       Country: "Brazil",
       CountryCode: "BR",
       Slug: "brazil",
@@ -337,7 +338,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "ced72086-ec46-4592-bd9f-36404eb76c3d",
+      id: "ced72086-ec46-4592-bd9f-36404eb76c3d",
       Country: "Brunei Darussalam",
       CountryCode: "BN",
       Slug: "brunei",
@@ -351,7 +352,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a0890ee9-1285-4069-8e4c-6e981bcd7290",
+      id: "a0890ee9-1285-4069-8e4c-6e981bcd7290",
       Country: "Bulgaria",
       CountryCode: "BG",
       Slug: "bulgaria",
@@ -365,7 +366,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "40d3afcf-b3b1-42db-b7a2-7cae178058db",
+      id: "40d3afcf-b3b1-42db-b7a2-7cae178058db",
       Country: "Burkina Faso",
       CountryCode: "BF",
       Slug: "burkina-faso",
@@ -379,7 +380,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9a50420a-1836-4409-9851-58d379533a97",
+      id: "9a50420a-1836-4409-9851-58d379533a97",
       Country: "Burundi",
       CountryCode: "BI",
       Slug: "burundi",
@@ -393,7 +394,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9475b4a8-81d6-47ca-99f6-6ecf842aa90a",
+      id: "9475b4a8-81d6-47ca-99f6-6ecf842aa90a",
       Country: "Cambodia",
       CountryCode: "KH",
       Slug: "cambodia",
@@ -407,7 +408,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b10c8743-538d-4007-9c37-6a2444da9023",
+      id: "b10c8743-538d-4007-9c37-6a2444da9023",
       Country: "Cameroon",
       CountryCode: "CM",
       Slug: "cameroon",
@@ -421,7 +422,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "3024cfef-0e24-4c01-adef-704bb5386d81",
+      id: "3024cfef-0e24-4c01-adef-704bb5386d81",
       Country: "Canada",
       CountryCode: "CA",
       Slug: "canada",
@@ -435,7 +436,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "575fdb51-96c7-4782-861a-e4e33ba43908",
+      id: "575fdb51-96c7-4782-861a-e4e33ba43908",
       Country: "Cape Verde",
       CountryCode: "CV",
       Slug: "cape-verde",
@@ -449,7 +450,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "4db3b4e7-a661-4a95-898a-123404bbd799",
+      id: "4db3b4e7-a661-4a95-898a-123404bbd799",
       Country: "Central African Republic",
       CountryCode: "CF",
       Slug: "central-african-republic",
@@ -463,7 +464,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "05f3edaf-5fe0-416a-b620-29a6fd34cff6",
+      id: "05f3edaf-5fe0-416a-b620-29a6fd34cff6",
       Country: "Chad",
       CountryCode: "TD",
       Slug: "chad",
@@ -477,7 +478,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "adf5de88-a59e-4350-a2c9-0c0d8ca70298",
+      id: "adf5de88-a59e-4350-a2c9-0c0d8ca70298",
       Country: "Chile",
       CountryCode: "CL",
       Slug: "chile",
@@ -491,7 +492,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f51e9448-ca69-40f0-a856-d01c552f6afd",
+      id: "f51e9448-ca69-40f0-a856-d01c552f6afd",
       Country: "China",
       CountryCode: "CN",
       Slug: "china",
@@ -505,7 +506,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a7dbb4de-5549-44bb-9cd4-1d69f6cdcd03",
+      id: "a7dbb4de-5549-44bb-9cd4-1d69f6cdcd03",
       Country: "Colombia",
       CountryCode: "CO",
       Slug: "colombia",
@@ -519,7 +520,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "0a900073-60d0-4995-bed8-cf1b8101c8af",
+      id: "0a900073-60d0-4995-bed8-cf1b8101c8af",
       Country: "Comoros",
       CountryCode: "KM",
       Slug: "comoros",
@@ -533,7 +534,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "cfa9f928-d2bb-4ee9-90d9-2dc0b6df33ed",
+      id: "cfa9f928-d2bb-4ee9-90d9-2dc0b6df33ed",
       Country: "Congo (Brazzaville)",
       CountryCode: "CG",
       Slug: "congo-brazzaville",
@@ -547,7 +548,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "73ee2aa8-aafe-40ab-9a3c-7a21057a1936",
+      id: "73ee2aa8-aafe-40ab-9a3c-7a21057a1936",
       Country: "Congo (Kinshasa)",
       CountryCode: "CD",
       Slug: "congo-kinshasa",
@@ -561,7 +562,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "380a4bea-b784-4aa9-8a49-40917a4424d4",
+      id: "380a4bea-b784-4aa9-8a49-40917a4424d4",
       Country: "Costa Rica",
       CountryCode: "CR",
       Slug: "costa-rica",
@@ -575,7 +576,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "968de36f-c725-42bd-a27d-8140f0470fff",
+      id: "968de36f-c725-42bd-a27d-8140f0470fff",
       Country: "Croatia",
       CountryCode: "HR",
       Slug: "croatia",
@@ -589,7 +590,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f1215d2f-13f4-4484-8122-731b7ef15d3b",
+      id: "f1215d2f-13f4-4484-8122-731b7ef15d3b",
       Country: "Cuba",
       CountryCode: "CU",
       Slug: "cuba",
@@ -603,7 +604,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "07e75f67-3187-4d79-bca8-0e17f785f7ac",
+      id: "07e75f67-3187-4d79-bca8-0e17f785f7ac",
       Country: "Cyprus",
       CountryCode: "CY",
       Slug: "cyprus",
@@ -617,7 +618,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "899aa0b8-5146-410c-8bed-d16d55a11749",
+      id: "899aa0b8-5146-410c-8bed-d16d55a11749",
       Country: "Czech Republic",
       CountryCode: "CZ",
       Slug: "czech-republic",
@@ -631,7 +632,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "aa8fff87-a3be-4ccf-9ba4-9257424fe8db",
+      id: "aa8fff87-a3be-4ccf-9ba4-9257424fe8db",
       Country: "Côte d'Ivoire",
       CountryCode: "CI",
       Slug: "cote-divoire",
@@ -645,7 +646,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d5eb8ac3-7741-4e78-8ea6-98f03cf789b8",
+      id: "d5eb8ac3-7741-4e78-8ea6-98f03cf789b8",
       Country: "Denmark",
       CountryCode: "DK",
       Slug: "denmark",
@@ -659,7 +660,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "473423f6-0d18-4f03-abbd-5d8fa3ffea7e",
+      id: "473423f6-0d18-4f03-abbd-5d8fa3ffea7e",
       Country: "Djibouti",
       CountryCode: "DJ",
       Slug: "djibouti",
@@ -673,7 +674,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a5acbf07-2d5d-4162-8d6a-d431d1759640",
+      id: "a5acbf07-2d5d-4162-8d6a-d431d1759640",
       Country: "Dominica",
       CountryCode: "DM",
       Slug: "dominica",
@@ -687,7 +688,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "0fa59a9c-2bcb-487e-8d66-5f577cdc8de3",
+      id: "0fa59a9c-2bcb-487e-8d66-5f577cdc8de3",
       Country: "Dominican Republic",
       CountryCode: "DO",
       Slug: "dominican-republic",
@@ -701,7 +702,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "53d462bf-e5f0-49c8-8172-f91ebd4abea3",
+      id: "53d462bf-e5f0-49c8-8172-f91ebd4abea3",
       Country: "Ecuador",
       CountryCode: "EC",
       Slug: "ecuador",
@@ -715,7 +716,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a3159fa9-3cc9-4ec4-ab54-3c6cc16f7b75",
+      id: "a3159fa9-3cc9-4ec4-ab54-3c6cc16f7b75",
       Country: "Egypt",
       CountryCode: "EG",
       Slug: "egypt",
@@ -729,7 +730,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "67171f47-70cf-43ab-81d3-c196698baf26",
+      id: "67171f47-70cf-43ab-81d3-c196698baf26",
       Country: "El Salvador",
       CountryCode: "SV",
       Slug: "el-salvador",
@@ -743,7 +744,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5e64d097-8867-485b-8f29-651f9cba8ccc",
+      id: "5e64d097-8867-485b-8f29-651f9cba8ccc",
       Country: "Equatorial Guinea",
       CountryCode: "GQ",
       Slug: "equatorial-guinea",
@@ -757,7 +758,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "08009ca3-e458-4e4a-b378-34ce43220735",
+      id: "08009ca3-e458-4e4a-b378-34ce43220735",
       Country: "Eritrea",
       CountryCode: "ER",
       Slug: "eritrea",
@@ -771,7 +772,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b64ed4ea-6ea4-4f99-8382-2488f1934abf",
+      id: "b64ed4ea-6ea4-4f99-8382-2488f1934abf",
       Country: "Estonia",
       CountryCode: "EE",
       Slug: "estonia",
@@ -785,7 +786,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "07eb16d2-06bd-4f20-ae3f-661e8a16d4ea",
+      id: "07eb16d2-06bd-4f20-ae3f-661e8a16d4ea",
       Country: "Ethiopia",
       CountryCode: "ET",
       Slug: "ethiopia",
@@ -799,7 +800,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "214f1679-8d81-42bb-a3d5-3d6325269cf6",
+      id: "214f1679-8d81-42bb-a3d5-3d6325269cf6",
       Country: "Fiji",
       CountryCode: "FJ",
       Slug: "fiji",
@@ -813,7 +814,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "063acbc1-02b0-4f9d-8224-eaaf89be0478",
+      id: "063acbc1-02b0-4f9d-8224-eaaf89be0478",
       Country: "Finland",
       CountryCode: "FI",
       Slug: "finland",
@@ -827,7 +828,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d10531c3-36a9-41c3-89dc-f44d04561cd0",
+      id: "d10531c3-36a9-41c3-89dc-f44d04561cd0",
       Country: "France",
       CountryCode: "FR",
       Slug: "france",
@@ -841,7 +842,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "dcb8501c-fd1f-4ac9-9f4c-132c5abf054a",
+      id: "dcb8501c-fd1f-4ac9-9f4c-132c5abf054a",
       Country: "Gabon",
       CountryCode: "GA",
       Slug: "gabon",
@@ -855,7 +856,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "77c0d96f-d9d4-4742-aae2-51fd3ab124a4",
+      id: "77c0d96f-d9d4-4742-aae2-51fd3ab124a4",
       Country: "Gambia",
       CountryCode: "GM",
       Slug: "gambia",
@@ -869,7 +870,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "7aa2124c-3728-4396-a6d6-3f2241d77234",
+      id: "7aa2124c-3728-4396-a6d6-3f2241d77234",
       Country: "Georgia",
       CountryCode: "GE",
       Slug: "georgia",
@@ -883,7 +884,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "c44d7e65-2849-487b-85e3-732c71f0b19a",
+      id: "c44d7e65-2849-487b-85e3-732c71f0b19a",
       Country: "Germany",
       CountryCode: "DE",
       Slug: "germany",
@@ -897,7 +898,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "bf6a4049-0656-4b94-9a85-bc916b391eed",
+      id: "bf6a4049-0656-4b94-9a85-bc916b391eed",
       Country: "Ghana",
       CountryCode: "GH",
       Slug: "ghana",
@@ -911,7 +912,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a14543e7-568b-43a6-90de-1e9a2fb4c460",
+      id: "a14543e7-568b-43a6-90de-1e9a2fb4c460",
       Country: "Greece",
       CountryCode: "GR",
       Slug: "greece",
@@ -925,7 +926,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "44dbb5d9-d657-41d3-a29f-9efb4c3595bb",
+      id: "44dbb5d9-d657-41d3-a29f-9efb4c3595bb",
       Country: "Grenada",
       CountryCode: "GD",
       Slug: "grenada",
@@ -939,7 +940,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9bbd6704-1006-4623-9532-ca8a0970b913",
+      id: "9bbd6704-1006-4623-9532-ca8a0970b913",
       Country: "Guatemala",
       CountryCode: "GT",
       Slug: "guatemala",
@@ -953,7 +954,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "ce63d1ef-0a06-4c6c-b130-9b1c7aab0161",
+      id: "ce63d1ef-0a06-4c6c-b130-9b1c7aab0161",
       Country: "Guinea",
       CountryCode: "GN",
       Slug: "guinea",
@@ -967,7 +968,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "ddfdc962-ce3f-4290-9aaa-1e7f05023df0",
+      id: "ddfdc962-ce3f-4290-9aaa-1e7f05023df0",
       Country: "Guinea-Bissau",
       CountryCode: "GW",
       Slug: "guinea-bissau",
@@ -981,7 +982,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "ffadd0eb-8013-4a41-bf65-1c8ed824a2a6",
+      id: "ffadd0eb-8013-4a41-bf65-1c8ed824a2a6",
       Country: "Guyana",
       CountryCode: "GY",
       Slug: "guyana",
@@ -995,7 +996,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a3976d70-5d5b-45da-8be1-ea840fb2f297",
+      id: "a3976d70-5d5b-45da-8be1-ea840fb2f297",
       Country: "Haiti",
       CountryCode: "HT",
       Slug: "haiti",
@@ -1009,7 +1010,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b8f21a07-be14-4cc6-919a-65a1a9aab691",
+      id: "b8f21a07-be14-4cc6-919a-65a1a9aab691",
       Country: "Holy See (Vatican City State)",
       CountryCode: "VA",
       Slug: "holy-see-vatican-city-state",
@@ -1023,7 +1024,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "be389691-5624-4f97-8eb9-8e2220c5dccf",
+      id: "be389691-5624-4f97-8eb9-8e2220c5dccf",
       Country: "Honduras",
       CountryCode: "HN",
       Slug: "honduras",
@@ -1037,7 +1038,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "3cce6284-5dbd-482a-9167-7f62d09dd6cc",
+      id: "3cce6284-5dbd-482a-9167-7f62d09dd6cc",
       Country: "Hungary",
       CountryCode: "HU",
       Slug: "hungary",
@@ -1051,7 +1052,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "19398777-8878-47cb-a974-ccda6bf31312",
+      id: "19398777-8878-47cb-a974-ccda6bf31312",
       Country: "Iceland",
       CountryCode: "IS",
       Slug: "iceland",
@@ -1065,7 +1066,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "42e39d56-4154-47ee-b865-dedc9654f281",
+      id: "42e39d56-4154-47ee-b865-dedc9654f281",
       Country: "India",
       CountryCode: "IN",
       Slug: "india",
@@ -1079,9 +1080,9 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "4fa85046-6e23-4c5c-96cb-edf3693372f5",
+      id: "4fa85046-6e23-4c5c-96cb-edf3693372f5",
       Country: "Indonesia",
-      CountryCode: "ID",
+      CountryCode: "id",
       Slug: "indonesia",
       NewConfirmed: 0,
       TotalConfirmed: 4265187,
@@ -1093,7 +1094,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "7133c35f-576a-4c87-a08d-381125ff95f7",
+      id: "7133c35f-576a-4c87-a08d-381125ff95f7",
       Country: "Iran, Islamic Republic of",
       CountryCode: "IR",
       Slug: "iran",
@@ -1107,7 +1108,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "927088c7-ed19-47cf-9507-39b30c926e46",
+      id: "927088c7-ed19-47cf-9507-39b30c926e46",
       Country: "Iraq",
       CountryCode: "IQ",
       Slug: "iraq",
@@ -1121,7 +1122,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "2d9c2a8e-f16d-4f92-863d-e346612c2c9c",
+      id: "2d9c2a8e-f16d-4f92-863d-e346612c2c9c",
       Country: "Ireland",
       CountryCode: "IE",
       Slug: "ireland",
@@ -1135,7 +1136,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "bf381d9d-129c-457d-a521-f4c47329dd0b",
+      id: "bf381d9d-129c-457d-a521-f4c47329dd0b",
       Country: "Israel",
       CountryCode: "IL",
       Slug: "israel",
@@ -1149,7 +1150,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "3544988a-5cc5-4148-bdf8-bc9624e7c018",
+      id: "3544988a-5cc5-4148-bdf8-bc9624e7c018",
       Country: "Italy",
       CountryCode: "IT",
       Slug: "italy",
@@ -1163,7 +1164,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "639127f8-80dc-41e9-8ee1-88a3434f5456",
+      id: "639127f8-80dc-41e9-8ee1-88a3434f5456",
       Country: "Jamaica",
       CountryCode: "JM",
       Slug: "jamaica",
@@ -1177,7 +1178,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a2507e9c-4a8c-4d57-b31d-44ee45507514",
+      id: "a2507e9c-4a8c-4d57-b31d-44ee45507514",
       Country: "Japan",
       CountryCode: "JP",
       Slug: "japan",
@@ -1191,7 +1192,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "3aa0a26a-586a-45fe-931f-09e6043438d8",
+      id: "3aa0a26a-586a-45fe-931f-09e6043438d8",
       Country: "Jordan",
       CountryCode: "JO",
       Slug: "jordan",
@@ -1205,7 +1206,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "99158867-e016-4018-bedf-a75c6e1e6131",
+      id: "99158867-e016-4018-bedf-a75c6e1e6131",
       Country: "Kazakhstan",
       CountryCode: "KZ",
       Slug: "kazakhstan",
@@ -1219,7 +1220,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "4f42f4fa-839c-4d30-b485-111dc1e16975",
+      id: "4f42f4fa-839c-4d30-b485-111dc1e16975",
       Country: "Kenya",
       CountryCode: "KE",
       Slug: "kenya",
@@ -1233,7 +1234,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a6664013-c1cc-4373-88b9-b4a561876a1e",
+      id: "a6664013-c1cc-4373-88b9-b4a561876a1e",
       Country: "Kiribati",
       CountryCode: "KI",
       Slug: "kiribati",
@@ -1247,7 +1248,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "c0a3fc4b-b7d9-4b3e-a021-e2e622f73973",
+      id: "c0a3fc4b-b7d9-4b3e-a021-e2e622f73973",
       Country: "Korea (South)",
       CountryCode: "KR",
       Slug: "korea-south",
@@ -1261,7 +1262,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "2d1b40c8-6c1a-4181-a3c4-9a5d3b03c072",
+      id: "2d1b40c8-6c1a-4181-a3c4-9a5d3b03c072",
       Country: "Kuwait",
       CountryCode: "KW",
       Slug: "kuwait",
@@ -1275,7 +1276,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5c722d29-99bd-4496-8c9a-16cbd3d11906",
+      id: "5c722d29-99bd-4496-8c9a-16cbd3d11906",
       Country: "Kyrgyzstan",
       CountryCode: "KG",
       Slug: "kyrgyzstan",
@@ -1289,7 +1290,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "7c1c61ab-c8da-4e13-abfe-be1d9597e731",
+      id: "7c1c61ab-c8da-4e13-abfe-be1d9597e731",
       Country: "Lao PDR",
       CountryCode: "LA",
       Slug: "lao-pdr",
@@ -1303,7 +1304,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "e0437441-b685-4f96-b70d-50aafaea8057",
+      id: "e0437441-b685-4f96-b70d-50aafaea8057",
       Country: "Latvia",
       CountryCode: "LV",
       Slug: "latvia",
@@ -1317,7 +1318,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "3b68da22-a337-46fa-805b-785aa77d0a56",
+      id: "3b68da22-a337-46fa-805b-785aa77d0a56",
       Country: "Lebanon",
       CountryCode: "LB",
       Slug: "lebanon",
@@ -1331,7 +1332,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "da9a5a99-31d3-4e93-b144-6ae4553c392c",
+      id: "da9a5a99-31d3-4e93-b144-6ae4553c392c",
       Country: "Lesotho",
       CountryCode: "LS",
       Slug: "lesotho",
@@ -1345,7 +1346,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9ef81732-ee15-4f40-8a88-ee9c3a87023e",
+      id: "9ef81732-ee15-4f40-8a88-ee9c3a87023e",
       Country: "Liberia",
       CountryCode: "LR",
       Slug: "liberia",
@@ -1359,7 +1360,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9668d2af-f6ff-40eb-b9a7-d039e885a4ed",
+      id: "9668d2af-f6ff-40eb-b9a7-d039e885a4ed",
       Country: "Libya",
       CountryCode: "LY",
       Slug: "libya",
@@ -1373,7 +1374,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "fea9876d-e1ba-455e-8aa1-18397e3303f5",
+      id: "fea9876d-e1ba-455e-8aa1-18397e3303f5",
       Country: "Liechtenstein",
       CountryCode: "LI",
       Slug: "liechtenstein",
@@ -1387,7 +1388,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "2ca6d8d1-fb73-4b6e-a73c-f7e557359b5c",
+      id: "2ca6d8d1-fb73-4b6e-a73c-f7e557359b5c",
       Country: "Lithuania",
       CountryCode: "LT",
       Slug: "lithuania",
@@ -1401,7 +1402,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "87ff5178-cde2-49a7-a714-bc1a1f88b81b",
+      id: "87ff5178-cde2-49a7-a714-bc1a1f88b81b",
       Country: "Luxembourg",
       CountryCode: "LU",
       Slug: "luxembourg",
@@ -1415,7 +1416,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9c32dfa8-29f2-4aa6-8fad-c7a498df95a2",
+      id: "9c32dfa8-29f2-4aa6-8fad-c7a498df95a2",
       Country: "Macedonia, Republic of",
       CountryCode: "MK",
       Slug: "macedonia",
@@ -1429,7 +1430,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d4a5939f-8c53-410d-9c63-eb4dd9cfeedb",
+      id: "d4a5939f-8c53-410d-9c63-eb4dd9cfeedb",
       Country: "Madagascar",
       CountryCode: "MG",
       Slug: "madagascar",
@@ -1443,7 +1444,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d59ccdb0-fd01-44b6-9ad2-dad644c86225",
+      id: "d59ccdb0-fd01-44b6-9ad2-dad644c86225",
       Country: "Malawi",
       CountryCode: "MW",
       Slug: "malawi",
@@ -1457,7 +1458,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b1ed0fb0-96f0-4d74-8082-4e93f70b4ffa",
+      id: "b1ed0fb0-96f0-4d74-8082-4e93f70b4ffa",
       Country: "Malaysia",
       CountryCode: "MY",
       Slug: "malaysia",
@@ -1471,7 +1472,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f8eb761a-cda8-448d-bb6c-3d4feae8a2ce",
+      id: "f8eb761a-cda8-448d-bb6c-3d4feae8a2ce",
       Country: "Maldives",
       CountryCode: "MV",
       Slug: "maldives",
@@ -1485,7 +1486,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9b0e91fb-6786-49ec-b433-71edea937954",
+      id: "9b0e91fb-6786-49ec-b433-71edea937954",
       Country: "Mali",
       CountryCode: "ML",
       Slug: "mali",
@@ -1499,7 +1500,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "dc0d951e-02fc-414c-a044-4a56c4791704",
+      id: "dc0d951e-02fc-414c-a044-4a56c4791704",
       Country: "Malta",
       CountryCode: "MT",
       Slug: "malta",
@@ -1513,7 +1514,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "86eab61e-4a68-49cb-9ec6-74f7f1974208",
+      id: "86eab61e-4a68-49cb-9ec6-74f7f1974208",
       Country: "Marshall Islands",
       CountryCode: "MH",
       Slug: "marshall-islands",
@@ -1527,7 +1528,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "fc9886ee-a361-4168-8a15-ee08e9be0038",
+      id: "fc9886ee-a361-4168-8a15-ee08e9be0038",
       Country: "Mauritania",
       CountryCode: "MR",
       Slug: "mauritania",
@@ -1541,7 +1542,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f1a0d561-5fe9-4896-8d76-af77f515b896",
+      id: "f1a0d561-5fe9-4896-8d76-af77f515b896",
       Country: "Mauritius",
       CountryCode: "MU",
       Slug: "mauritius",
@@ -1555,7 +1556,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "54e74cfb-669e-4c60-8ae4-dd7d60547743",
+      id: "54e74cfb-669e-4c60-8ae4-dd7d60547743",
       Country: "Mexico",
       CountryCode: "MX",
       Slug: "mexico",
@@ -1569,7 +1570,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "eb61c9e6-64f7-46a9-bd4b-26962e7ba31f",
+      id: "eb61c9e6-64f7-46a9-bd4b-26962e7ba31f",
       Country: "Micronesia, Federated States of",
       CountryCode: "FM",
       Slug: "micronesia",
@@ -1583,7 +1584,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "ae0e2609-94a0-438a-a872-ba49e4b719fe",
+      id: "ae0e2609-94a0-438a-a872-ba49e4b719fe",
       Country: "Moldova",
       CountryCode: "MD",
       Slug: "moldova",
@@ -1597,7 +1598,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "47793dc8-bcb7-42a4-8d63-70083c8d45b6",
+      id: "47793dc8-bcb7-42a4-8d63-70083c8d45b6",
       Country: "Monaco",
       CountryCode: "MC",
       Slug: "monaco",
@@ -1611,7 +1612,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "bc3566bc-93f5-4b92-a52c-03882141fe45",
+      id: "bc3566bc-93f5-4b92-a52c-03882141fe45",
       Country: "Mongolia",
       CountryCode: "MN",
       Slug: "mongolia",
@@ -1625,7 +1626,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "55ef7004-806c-479c-9518-f930228ac8e8",
+      id: "55ef7004-806c-479c-9518-f930228ac8e8",
       Country: "Montenegro",
       CountryCode: "ME",
       Slug: "montenegro",
@@ -1639,7 +1640,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "90ce7ed2-4135-4837-a0f6-df23e95e86d0",
+      id: "90ce7ed2-4135-4837-a0f6-df23e95e86d0",
       Country: "Morocco",
       CountryCode: "MA",
       Slug: "morocco",
@@ -1653,7 +1654,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "bc6e2b0c-0d0e-4cef-9ce2-f1f16b6a7dfb",
+      id: "bc6e2b0c-0d0e-4cef-9ce2-f1f16b6a7dfb",
       Country: "Mozambique",
       CountryCode: "MZ",
       Slug: "mozambique",
@@ -1667,7 +1668,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "4e9ff976-1267-490f-b448-3f5ef98e51c9",
+      id: "4e9ff976-1267-490f-b448-3f5ef98e51c9",
       Country: "Myanmar",
       CountryCode: "MM",
       Slug: "myanmar",
@@ -1681,7 +1682,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "88bb020a-4d30-4c30-b3ee-bc0f32e9ef89",
+      id: "88bb020a-4d30-4c30-b3ee-bc0f32e9ef89",
       Country: "Namibia",
       CountryCode: "NA",
       Slug: "namibia",
@@ -1695,7 +1696,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5efcd024-e4bf-45ad-8f80-e53ca98f8719",
+      id: "5efcd024-e4bf-45ad-8f80-e53ca98f8719",
       Country: "Nepal",
       CountryCode: "NP",
       Slug: "nepal",
@@ -1709,7 +1710,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "49c09eb3-4f71-4bad-99e3-9ff0aff87461",
+      id: "49c09eb3-4f71-4bad-99e3-9ff0aff87461",
       Country: "Netherlands",
       CountryCode: "NL",
       Slug: "netherlands",
@@ -1723,7 +1724,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f34fe583-b543-483c-8eca-2dfadefe691a",
+      id: "f34fe583-b543-483c-8eca-2dfadefe691a",
       Country: "New Zealand",
       CountryCode: "NZ",
       Slug: "new-zealand",
@@ -1737,7 +1738,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "97cee07d-0c00-44b8-8075-30c3f448dd3d",
+      id: "97cee07d-0c00-44b8-8075-30c3f448dd3d",
       Country: "Nicaragua",
       CountryCode: "NI",
       Slug: "nicaragua",
@@ -1751,7 +1752,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9ee4a4e2-29d4-4f4c-8e1d-7e7a5f234ebe",
+      id: "9ee4a4e2-29d4-4f4c-8e1d-7e7a5f234ebe",
       Country: "Niger",
       CountryCode: "NE",
       Slug: "niger",
@@ -1765,7 +1766,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d5103175-9601-4e48-a8a6-6ee7344214c2",
+      id: "d5103175-9601-4e48-a8a6-6ee7344214c2",
       Country: "Nigeria",
       CountryCode: "NG",
       Slug: "nigeria",
@@ -1779,7 +1780,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "123fba6a-2f1e-42a4-a7f0-47ed50209f9a",
+      id: "123fba6a-2f1e-42a4-a7f0-47ed50209f9a",
       Country: "Norway",
       CountryCode: "NO",
       Slug: "norway",
@@ -1793,7 +1794,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "65010eaf-1104-4cd9-a23a-8251ed9273e5",
+      id: "65010eaf-1104-4cd9-a23a-8251ed9273e5",
       Country: "Oman",
       CountryCode: "OM",
       Slug: "oman",
@@ -1807,7 +1808,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "ce937a2d-5eaa-4a7f-a05c-7601740d2a27",
+      id: "ce937a2d-5eaa-4a7f-a05c-7601740d2a27",
       Country: "Pakistan",
       CountryCode: "PK",
       Slug: "pakistan",
@@ -1821,7 +1822,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "afaab59e-e6a4-4ae0-9e3b-4f0550cee093",
+      id: "afaab59e-e6a4-4ae0-9e3b-4f0550cee093",
       Country: "Palau",
       CountryCode: "PW",
       Slug: "palau",
@@ -1835,7 +1836,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "351084cb-c57e-4cb7-b295-5904255d1558",
+      id: "351084cb-c57e-4cb7-b295-5904255d1558",
       Country: "Palestinian Territory",
       CountryCode: "PS",
       Slug: "palestine",
@@ -1849,7 +1850,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "6b99690e-0168-4964-b8f3-0e08c62b9956",
+      id: "6b99690e-0168-4964-b8f3-0e08c62b9956",
       Country: "Panama",
       CountryCode: "PA",
       Slug: "panama",
@@ -1863,7 +1864,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "e061375d-b3f5-4cae-aa0a-8db321d962a4",
+      id: "e061375d-b3f5-4cae-aa0a-8db321d962a4",
       Country: "Papua New Guinea",
       CountryCode: "PG",
       Slug: "papua-new-guinea",
@@ -1877,7 +1878,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "9e331366-ec37-4fe7-94ef-23930e3534d2",
+      id: "9e331366-ec37-4fe7-94ef-23930e3534d2",
       Country: "Paraguay",
       CountryCode: "PY",
       Slug: "paraguay",
@@ -1891,7 +1892,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "e0e917bf-9705-4586-a886-4cc445e8527d",
+      id: "e0e917bf-9705-4586-a886-4cc445e8527d",
       Country: "Peru",
       CountryCode: "PE",
       Slug: "peru",
@@ -1905,7 +1906,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d0f7ec67-dcfe-4552-9cd7-6398bc4ee6fb",
+      id: "d0f7ec67-dcfe-4552-9cd7-6398bc4ee6fb",
       Country: "Philippines",
       CountryCode: "PH",
       Slug: "philippines",
@@ -1919,7 +1920,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "90eb85a9-f1f8-49a8-82e9-869f5d345a73",
+      id: "90eb85a9-f1f8-49a8-82e9-869f5d345a73",
       Country: "Poland",
       CountryCode: "PL",
       Slug: "poland",
@@ -1933,7 +1934,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a35e0472-6475-45d3-9919-7b96b51475ec",
+      id: "a35e0472-6475-45d3-9919-7b96b51475ec",
       Country: "Portugal",
       CountryCode: "PT",
       Slug: "portugal",
@@ -1947,7 +1948,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "0a8fccf9-eabf-48eb-a591-7d7c17c897a9",
+      id: "0a8fccf9-eabf-48eb-a591-7d7c17c897a9",
       Country: "Qatar",
       CountryCode: "QA",
       Slug: "qatar",
@@ -1961,7 +1962,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "cd120efb-3116-4859-a269-044d40cd4c90",
+      id: "cd120efb-3116-4859-a269-044d40cd4c90",
       Country: "Republic of Kosovo",
       CountryCode: "XK",
       Slug: "kosovo",
@@ -1975,7 +1976,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5ea5e963-dcc7-4e5b-a34f-96ea73d994b9",
+      id: "5ea5e963-dcc7-4e5b-a34f-96ea73d994b9",
       Country: "Romania",
       CountryCode: "RO",
       Slug: "romania",
@@ -1989,7 +1990,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "dbb826d9-d626-4f1d-957a-6874723b99ea",
+      id: "dbb826d9-d626-4f1d-957a-6874723b99ea",
       Country: "Russian Federation",
       CountryCode: "RU",
       Slug: "russia",
@@ -2003,7 +2004,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b78e7d0c-9683-4b3b-885c-11c5378aaebc",
+      id: "b78e7d0c-9683-4b3b-885c-11c5378aaebc",
       Country: "Rwanda",
       CountryCode: "RW",
       Slug: "rwanda",
@@ -2017,7 +2018,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a4ff356b-f7b7-4eb8-b16d-10757d9447f6",
+      id: "a4ff356b-f7b7-4eb8-b16d-10757d9447f6",
       Country: "Saint Kitts and Nevis",
       CountryCode: "KN",
       Slug: "saint-kitts-and-nevis",
@@ -2031,7 +2032,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "120b53db-9218-48a0-8c78-abb89698bc27",
+      id: "120b53db-9218-48a0-8c78-abb89698bc27",
       Country: "Saint Lucia",
       CountryCode: "LC",
       Slug: "saint-lucia",
@@ -2045,7 +2046,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "ade5c4cb-4375-48ad-9078-a68fa03f7077",
+      id: "ade5c4cb-4375-48ad-9078-a68fa03f7077",
       Country: "Saint Vincent and Grenadines",
       CountryCode: "VC",
       Slug: "saint-vincent-and-the-grenadines",
@@ -2059,7 +2060,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "3d30403e-b587-46a7-9eff-e1b145c49fac",
+      id: "3d30403e-b587-46a7-9eff-e1b145c49fac",
       Country: "Samoa",
       CountryCode: "WS",
       Slug: "samoa",
@@ -2073,7 +2074,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "1173971e-f2f6-4ef7-b841-2bb75ff4e3d7",
+      id: "1173971e-f2f6-4ef7-b841-2bb75ff4e3d7",
       Country: "San Marino",
       CountryCode: "SM",
       Slug: "san-marino",
@@ -2087,7 +2088,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "81e64427-f721-48c8-8e2a-d6191353b706",
+      id: "81e64427-f721-48c8-8e2a-d6191353b706",
       Country: "Sao Tome and Principe",
       CountryCode: "ST",
       Slug: "sao-tome-and-principe",
@@ -2101,7 +2102,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "7642ee14-2dd8-4ef6-b170-92f6e8408e6e",
+      id: "7642ee14-2dd8-4ef6-b170-92f6e8408e6e",
       Country: "Saudi Arabia",
       CountryCode: "SA",
       Slug: "saudi-arabia",
@@ -2115,7 +2116,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "56b5d735-de6d-4766-9ad1-f274ace86447",
+      id: "56b5d735-de6d-4766-9ad1-f274ace86447",
       Country: "Senegal",
       CountryCode: "SN",
       Slug: "senegal",
@@ -2129,7 +2130,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "8d159c8a-1b52-49fc-946f-03f58e6767c1",
+      id: "8d159c8a-1b52-49fc-946f-03f58e6767c1",
       Country: "Serbia",
       CountryCode: "RS",
       Slug: "serbia",
@@ -2143,7 +2144,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "dbb60e13-df78-408e-8208-95c6675c8a00",
+      id: "dbb60e13-df78-408e-8208-95c6675c8a00",
       Country: "Seychelles",
       CountryCode: "SC",
       Slug: "seychelles",
@@ -2157,7 +2158,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "bdfcdf88-c0dc-4608-9fe9-cf4cab5f273c",
+      id: "bdfcdf88-c0dc-4608-9fe9-cf4cab5f273c",
       Country: "Sierra Leone",
       CountryCode: "SL",
       Slug: "sierra-leone",
@@ -2171,7 +2172,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "71b5c49b-8e46-4576-b67b-03020cb9fbf7",
+      id: "71b5c49b-8e46-4576-b67b-03020cb9fbf7",
       Country: "Singapore",
       CountryCode: "SG",
       Slug: "singapore",
@@ -2185,7 +2186,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "07bab56a-945a-4f2a-bf9f-ffc1bc2b0f2a",
+      id: "07bab56a-945a-4f2a-bf9f-ffc1bc2b0f2a",
       Country: "Slovakia",
       CountryCode: "SK",
       Slug: "slovakia",
@@ -2199,7 +2200,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "04d516e2-a262-43a1-bf81-9f993c517866",
+      id: "04d516e2-a262-43a1-bf81-9f993c517866",
       Country: "Slovenia",
       CountryCode: "SI",
       Slug: "slovenia",
@@ -2213,7 +2214,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5cb334a6-d425-45bd-8ed2-52577dd44e38",
+      id: "5cb334a6-d425-45bd-8ed2-52577dd44e38",
       Country: "Solomon Islands",
       CountryCode: "SB",
       Slug: "solomon-islands",
@@ -2227,7 +2228,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "79b97ac2-a6dd-48b0-bb52-1fa8e9bd2590",
+      id: "79b97ac2-a6dd-48b0-bb52-1fa8e9bd2590",
       Country: "Somalia",
       CountryCode: "SO",
       Slug: "somalia",
@@ -2241,7 +2242,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f0af60cc-9d42-40ea-bcbb-3db5652dca5a",
+      id: "f0af60cc-9d42-40ea-bcbb-3db5652dca5a",
       Country: "South Africa",
       CountryCode: "ZA",
       Slug: "south-africa",
@@ -2255,7 +2256,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "335b27f5-e25b-445b-9652-5ae1abdf53ab",
+      id: "335b27f5-e25b-445b-9652-5ae1abdf53ab",
       Country: "South Sudan",
       CountryCode: "SS",
       Slug: "south-sudan",
@@ -2269,7 +2270,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "6b05a279-9439-4f1f-9278-3108a4be3240",
+      id: "6b05a279-9439-4f1f-9278-3108a4be3240",
       Country: "Spain",
       CountryCode: "ES",
       Slug: "spain",
@@ -2283,7 +2284,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "19880b3b-147f-43d3-b4c7-b0253b03d3a0",
+      id: "19880b3b-147f-43d3-b4c7-b0253b03d3a0",
       Country: "Sri Lanka",
       CountryCode: "LK",
       Slug: "sri-lanka",
@@ -2297,7 +2298,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5412d3af-a95c-46d2-92a5-1373c0dae6bf",
+      id: "5412d3af-a95c-46d2-92a5-1373c0dae6bf",
       Country: "Sudan",
       CountryCode: "SD",
       Slug: "sudan",
@@ -2311,7 +2312,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "6e8e245d-a40e-4c29-99d0-2b7980f5b3be",
+      id: "6e8e245d-a40e-4c29-99d0-2b7980f5b3be",
       Country: "Suriname",
       CountryCode: "SR",
       Slug: "suriname",
@@ -2325,7 +2326,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "5112f074-b513-45e2-b7ec-8a6f0f90da36",
+      id: "5112f074-b513-45e2-b7ec-8a6f0f90da36",
       Country: "Swaziland",
       CountryCode: "SZ",
       Slug: "swaziland",
@@ -2339,7 +2340,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d6de7966-0353-475b-b3b2-1d3ae5f261cb",
+      id: "d6de7966-0353-475b-b3b2-1d3ae5f261cb",
       Country: "Sweden",
       CountryCode: "SE",
       Slug: "sweden",
@@ -2353,7 +2354,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "51670339-30a5-412c-973d-c605419df2b4",
+      id: "51670339-30a5-412c-973d-c605419df2b4",
       Country: "Switzerland",
       CountryCode: "CH",
       Slug: "switzerland",
@@ -2367,7 +2368,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "825d2316-81c1-4e36-97b4-f08f94a40d2a",
+      id: "825d2316-81c1-4e36-97b4-f08f94a40d2a",
       Country: "Syrian Arab Republic (Syria)",
       CountryCode: "SY",
       Slug: "syria",
@@ -2381,7 +2382,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "3014b96f-023e-4f5b-b71e-366179e0f6f3",
+      id: "3014b96f-023e-4f5b-b71e-366179e0f6f3",
       Country: "Taiwan, Republic of China",
       CountryCode: "TW",
       Slug: "taiwan",
@@ -2395,7 +2396,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f872b92b-d661-4513-b8e2-3ad0847c4f7f",
+      id: "f872b92b-d661-4513-b8e2-3ad0847c4f7f",
       Country: "Tajikistan",
       CountryCode: "TJ",
       Slug: "tajikistan",
@@ -2409,7 +2410,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "7c0454f0-57b2-4913-b9fb-5032f9159333",
+      id: "7c0454f0-57b2-4913-b9fb-5032f9159333",
       Country: "Tanzania, United Republic of",
       CountryCode: "TZ",
       Slug: "tanzania",
@@ -2423,7 +2424,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "0f20e770-d5fe-4834-97ed-1704b59acc1a",
+      id: "0f20e770-d5fe-4834-97ed-1704b59acc1a",
       Country: "Thailand",
       CountryCode: "TH",
       Slug: "thailand",
@@ -2437,7 +2438,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "75aa2ae4-89b1-4de3-8585-0f596ceb8362",
+      id: "75aa2ae4-89b1-4de3-8585-0f596ceb8362",
       Country: "Timor-Leste",
       CountryCode: "TL",
       Slug: "timor-leste",
@@ -2451,7 +2452,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "d75c61b0-0938-48e6-8900-a7892a0d92cb",
+      id: "d75c61b0-0938-48e6-8900-a7892a0d92cb",
       Country: "Togo",
       CountryCode: "TG",
       Slug: "togo",
@@ -2465,7 +2466,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "73e32e35-8e2e-45ae-9d00-75b05921bc99",
+      id: "73e32e35-8e2e-45ae-9d00-75b05921bc99",
       Country: "Tonga",
       CountryCode: "TO",
       Slug: "tonga",
@@ -2479,7 +2480,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "69c9ee17-8fbb-4ed6-9d0d-2ae878115ad7",
+      id: "69c9ee17-8fbb-4ed6-9d0d-2ae878115ad7",
       Country: "Trinidad and Tobago",
       CountryCode: "TT",
       Slug: "trinidad-and-tobago",
@@ -2493,7 +2494,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b417c101-9d5c-4140-9cea-774ece2e5d2d",
+      id: "b417c101-9d5c-4140-9cea-774ece2e5d2d",
       Country: "Tunisia",
       CountryCode: "TN",
       Slug: "tunisia",
@@ -2507,7 +2508,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "f2d07689-9776-4a00-b01a-8d0b300f159e",
+      id: "f2d07689-9776-4a00-b01a-8d0b300f159e",
       Country: "Turkey",
       CountryCode: "TR",
       Slug: "turkey",
@@ -2521,7 +2522,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "7f757a5b-11ad-4123-a946-33f59dc2344c",
+      id: "7f757a5b-11ad-4123-a946-33f59dc2344c",
       Country: "Uganda",
       CountryCode: "UG",
       Slug: "uganda",
@@ -2535,7 +2536,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "c33df3a0-05d3-49ca-b12c-dd44a9dbf873",
+      id: "c33df3a0-05d3-49ca-b12c-dd44a9dbf873",
       Country: "Ukraine",
       CountryCode: "UA",
       Slug: "ukraine",
@@ -2549,7 +2550,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "aa4872f6-287a-48ba-a9f1-d4bda9896a6b",
+      id: "aa4872f6-287a-48ba-a9f1-d4bda9896a6b",
       Country: "United Arab Emirates",
       CountryCode: "AE",
       Slug: "united-arab-emirates",
@@ -2563,7 +2564,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "8aea49f5-f528-4d3f-ab2b-ca5341b78e51",
+      id: "8aea49f5-f528-4d3f-ab2b-ca5341b78e51",
       Country: "United Kingdom",
       CountryCode: "GB",
       Slug: "united-kingdom",
@@ -2577,7 +2578,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "2d7dc44e-9393-42b9-85fe-e939b996ac72",
+      id: "2d7dc44e-9393-42b9-85fe-e939b996ac72",
       Country: "United States of America",
       CountryCode: "US",
       Slug: "united-states",
@@ -2591,7 +2592,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "6b17e674-06a2-4e47-b1b1-7ab6aca099c0",
+      id: "6b17e674-06a2-4e47-b1b1-7ab6aca099c0",
       Country: "Uruguay",
       CountryCode: "UY",
       Slug: "uruguay",
@@ -2605,7 +2606,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "27de1c40-7f65-4ed8-8bc9-4b4f0b3f4346",
+      id: "27de1c40-7f65-4ed8-8bc9-4b4f0b3f4346",
       Country: "Uzbekistan",
       CountryCode: "UZ",
       Slug: "uzbekistan",
@@ -2619,7 +2620,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "c1d3571b-b873-473f-840c-d51a6507d9b5",
+      id: "c1d3571b-b873-473f-840c-d51a6507d9b5",
       Country: "Vanuatu",
       CountryCode: "VU",
       Slug: "vanuatu",
@@ -2633,7 +2634,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "a6f24e9e-8b17-4b17-b92b-568c6a9790e6",
+      id: "a6f24e9e-8b17-4b17-b92b-568c6a9790e6",
       Country: "Venezuela (Bolivarian Republic)",
       CountryCode: "VE",
       Slug: "venezuela",
@@ -2647,7 +2648,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "73e5a784-3923-411b-b25a-c57512e76753",
+      id: "73e5a784-3923-411b-b25a-c57512e76753",
       Country: "Viet Nam",
       CountryCode: "VN",
       Slug: "vietnam",
@@ -2661,7 +2662,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "b9ee9d41-525f-4055-a7c6-18d9b13bf950",
+      id: "b9ee9d41-525f-4055-a7c6-18d9b13bf950",
       Country: "Yemen",
       CountryCode: "YE",
       Slug: "yemen",
@@ -2675,7 +2676,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "6bb70ec7-6a3e-4d41-b35e-c47751a08c67",
+      id: "6bb70ec7-6a3e-4d41-b35e-c47751a08c67",
       Country: "Zambia",
       CountryCode: "ZM",
       Slug: "zambia",
@@ -2689,7 +2690,7 @@ export const initialState = {
       Premium: {},
     },
     {
-      ID: "16658025-36f4-4d0a-8040-c71b0027c8c4",
+      id: "16658025-36f4-4d0a-8040-c71b0027c8c4",
       Country: "Zimbabwe",
       CountryCode: "ZW",
       Slug: "zimbabwe",

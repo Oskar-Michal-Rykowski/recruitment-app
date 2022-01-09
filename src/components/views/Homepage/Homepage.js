@@ -9,20 +9,35 @@ import clsx from "clsx";
 import styles from "./Homepage.module.scss";
 import { SearchModule } from "../../features/SearchModule/SearchModule";
 import { getCountries } from "../../../redux/countriesRedux";
-import { connect } from "react-redux";
+import {
+  addCountrySearch,
+  getSearchingCountry,
+} from "../../../redux/searchingRedux";
 
-const Component = ({ className, children, countries }) => {
+import { connect } from "react-redux";
+import { CountryTable } from "../../features/CountryTable/CountryTable";
+
+const Component = ({
+  className,
+  searchingCountry,
+  children,
+  countries,
+  addCountrySearch,
+}) => {
   const countriesForAutocomplete = [];
+  console.log("countries", countries);
   for (let country of countries) {
     const countryObj = { label: country.Country };
     countriesForAutocomplete.push(countryObj);
   }
   return (
     <div className={clsx(className, styles.root)}>
-      <SearchModule
+      {/* <SearchModule
         autocompleteOptions={countriesForAutocomplete}
-      ></SearchModule>
-      {children}
+        handleChangeFunction={addCountrySearch}
+        searchingCountry={searchingCountry}
+      ></SearchModule> */}
+      <CountryTable></CountryTable>
     </div>
   );
 };
@@ -30,15 +45,18 @@ const Component = ({ className, children, countries }) => {
 Component.propTypes = {
   children: PropTypes.node,
   countries: PropTypes.array,
+  addCountrySearch: PropTypes.func,
+  searchingCountry: PropTypes.string,
   className: PropTypes.string,
 };
 
 const mapStateToProps = (state) => ({
   countries: getCountries(state),
+  searchingCountry: getSearchingCountry(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  // someAction: arg => dispatch(reduxActionCreator(arg)),
+  addCountrySearch: (country) => dispatch(addCountrySearch(country)),
 });
 
 const Container = connect(mapStateToProps, mapDispatchToProps)(Component);

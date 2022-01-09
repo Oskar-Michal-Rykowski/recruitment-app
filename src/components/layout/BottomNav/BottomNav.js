@@ -7,11 +7,13 @@ import clsx from "clsx";
 // import { reduxSelector, reduxActionCreator } from '../../../redux/exampleRedux.js';
 
 import styles from "./BottomNav.module.scss";
+import { Link } from "react-router-dom";
 
 const Component = ({ className, children }) => (
   <div className={clsx(className, styles.root)}>
-    <h1 className={styles.title}>Created by Oskar Rykowski</h1>
-    {children}
+    <Link className={styles.brand} to="/">
+      Created by Oskar Rykowski
+    </Link>
   </div>
 );
 
