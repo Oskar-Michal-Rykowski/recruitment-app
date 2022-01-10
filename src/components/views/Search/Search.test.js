@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { HomepageComponent } from "./Search";
+import { SearchComponent } from "./Search";
 
 describe("Component Homepage", () => {
   const countries = [
     {
-      ID: "663333d5-859e-401d-8508-577fc51de878",
+      id: "663333d5-859e-401d-8508-577fc51de878",
       Country: "Afghanistan",
       CountryCode: "AF",
       Slug: "afghanistan",
@@ -19,7 +19,7 @@ describe("Component Homepage", () => {
       Premium: {},
     },
     {
-      ID: "b7af4c35-0ba0-4045-973b-54202e8c7eae",
+      id: "b7af4c35-0ba0-4045-973b-54202e8c7eae",
       Country: "Albania",
       CountryCode: "AL",
       Slug: "albania",
@@ -33,9 +33,15 @@ describe("Component Homepage", () => {
       Premium: {},
     },
   ];
+  const searchingCountry = "";
 
   it("should render without crashing", () => {
-    const component = shallow(<HomepageComponent countries={countries} />);
+    const component = shallow(
+      <SearchComponent
+        searchingCountry={searchingCountry}
+        countries={countries}
+      />
+    );
     expect(component).toBeTruthy();
   });
 });
