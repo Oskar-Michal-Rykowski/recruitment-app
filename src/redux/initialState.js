@@ -1,5 +1,5 @@
 export const initialState = {
-  searchingCountry: "Countries",
+  searchingCountry: "",
   countries: [
     {
       id: "663333d5-859e-401d-8508-577fc51de878",

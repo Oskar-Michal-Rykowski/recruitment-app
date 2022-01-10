@@ -1,10 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-import clsx from "clsx";
-
-// import { connect } from 'react-redux';
-// import { reduxSelector, reduxActionCreator } from '../../../redux/exampleRedux.js';
+import Box from "@mui/material/Box";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import Container from "@mui/material/Container";
 
 import styles from "./Search.module.scss";
 import { SearchModule } from "../../features/SearchModule/SearchModule";
@@ -13,44 +16,22 @@ import {
   addCountrySearch,
   getSearchingCountry,
 } from "../../../redux/searchingRedux";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { Link } from "react-router-dom";
-import { connect } from "react-redux";
-import Container from "@mui/material/Container";
-import { CountryTable } from "../../features/CountryTable/CountryTable";
 
-const Component = ({
-  className,
-  searchingCountry,
-  children,
-  countries,
-  addCountrySearch,
-}) => {
-  const searchingCountries = [];
-  // console.log("countries", countries);
-  // for (let country of countries) {
-  //   const countryObj = { label: country.Country };
-  //   searchingCountry.push(countryObj);
-  // }
-  for (let country of countries) {
-    searchingCountries.push(country);
-    // return searchingCountry;
-  }
-  if (searchingCountry.lenght) {
-    searchingCountries.filter(
+const Component = ({ searchingCountry, countries, addCountrySearch }) => {
+  let searchingCountries = [];
+  if (searchingCountry.length) {
+    console.log("Works");
+    searchingCountries = countries.filter(
       (country) => country.Country === searchingCountry
     );
+  } else {
+    for (let country of countries) {
+      searchingCountries.push(country);
+    }
   }
-  console.log("searchingCountries", searchingCountries);
-  console.log("searchingCountry", searchingCountry);
 
   return (
-    <div className={clsx(className, styles.root)}>
+    <div className={styles.root}>
       <Container maxWidth="xl">
         <div className={styles.search}>
           <SearchModule
@@ -94,11 +75,9 @@ const Component = ({
 };
 
 Component.propTypes = {
-  children: PropTypes.node,
   countries: PropTypes.array,
   addCountrySearch: PropTypes.func,
   searchingCountry: PropTypes.string,
-  className: PropTypes.string,
 };
 
 const mapStateToProps = (state) => ({
@@ -115,8 +94,4 @@ const ComponentContainer = connect(
   mapDispatchToProps
 )(Component);
 
-export {
-  // Component as Homepage,
-  ComponentContainer as Search,
-  Component as SearchComponent,
-};
+export { ComponentContainer as Search, Component as SearchComponent };

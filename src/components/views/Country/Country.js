@@ -1,37 +1,82 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-import clsx from "clsx";
-
-// import { connect } from 'react-redux';
-// import { reduxSelector, reduxActionCreator } from '../../../redux/exampleRedux.js';
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { CardActionArea, Container } from "@mui/material";
+import { connect } from "react-redux";
 
 import styles from "./Country.module.scss";
+import { getCountries } from "../../../redux/countriesRedux";
 
-const Component = ({ className, children }) => (
-  <div className={clsx(className, styles.root)}>
-    <h2>Country</h2>
-    {children}
-  </div>
-);
+const Component = ({ countries }) => {
+  const url = window.location.href;
+  const stuff = url.split("/");
+  const countryName = stuff[stuff.length - 1];
+  const countryData = countries.filter(
+    (country) => country.Country === countryName
+  )[0];
+
+  return (
+    <div className={styles.root}>
+      <Container>
+        <Card>
+          <CardActionArea>
+            <CardMedia
+              className={styles.photo}
+              component="img"
+              image={
+                "https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              }
+              alt="green iguana"
+            />
+            <CardContent className={styles.content}>
+              <Typography gutterBottom variant="h5" component="div">
+                {countryData.Country}
+              </Typography>
+              <div className={styles.data}>
+                <div className={styles.box}>
+                  <Typography variant="h6" gutterBottom component="div">
+                    Total Confirmed
+                  </Typography>
+                  <Typography variant="subtitle1" gutterBottom component="div">
+                    {countryData.TotalConfirmed}
+                  </Typography>
+                </div>
+                <div className={styles.box}>
+                  <Typography variant="h6" gutterBottom component="div">
+                    Total Deaths
+                  </Typography>
+                  <Typography variant="subtitle1" gutterBottom component="div">
+                    {countryData.TotalDeaths}
+                  </Typography>
+                </div>
+                <div className={styles.box}>
+                  <Typography variant="h6" gutterBottom component="div">
+                    Total Recovered
+                  </Typography>
+                  <Typography variant="subtitle1" gutterBottom component="div">
+                    {countryData.TotalRecovered}
+                  </Typography>
+                </div>
+              </div>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </Container>
+    </div>
+  );
+};
 
 Component.propTypes = {
-  children: PropTypes.node,
-  className: PropTypes.string,
+  countries: PropTypes.array,
 };
 
-// const mapStateToProps = state => ({
-//   someProp: reduxSelector(state),
-// });
+const mapStateToProps = (state) => ({
+  countries: getCountries(state),
+});
 
-// const mapDispatchToProps = dispatch => ({
-//   someAction: arg => dispatch(reduxActionCreator(arg)),
-// });
+const CountryContainer = connect(mapStateToProps)(Component);
 
-// const Container = connect(mapStateToProps, mapDispatchToProps)(Component);
-
-export {
-  Component as Country,
-  // Container as Country,
-  Component as CountryComponent,
-};
+export { CountryContainer as Country, Component as CountryComponent };
